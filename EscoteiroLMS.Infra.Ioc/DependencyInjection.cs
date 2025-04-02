@@ -1,7 +1,6 @@
 ﻿namespace EscoteiroLMS.Infra.Ioc
 {
-    public class Class1
+    public class DependencyInjection
     {
-
     }
 }

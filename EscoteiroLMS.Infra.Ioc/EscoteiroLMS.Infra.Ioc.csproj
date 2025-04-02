@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EscoteiroDMS.Domain\EscoteiroLMS.Domain.csproj" />
+    <ProjectReference Include="..\EscoteiroDMS.Infra.Data\EscoteiroLMS.Infra.Data.csproj" />
+    <ProjectReference Include="..\EscoteiroLMS.Application\EscoteiroLMS.Application.csproj" />
+  </ItemGroup>
+
 </Project>

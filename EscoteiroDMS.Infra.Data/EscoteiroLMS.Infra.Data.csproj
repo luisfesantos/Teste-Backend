@@ -20,4 +20,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EscoteiroDMS.Domain\EscoteiroLMS.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
