@@ -1,19 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscoteiroLMS.Domain", "EscoteiroDMS.Domain\EscoteiroLMS.Domain.csproj", "{02F0F949-7DE3-4356-93F4-7FCCB43486C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscoteiroLMS.Domain", "EscoteiroDMS.Domain\EscoteiroLMS.Domain.csproj", "{02F0F949-7DE3-4356-93F4-7FCCB43486C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscoteiroLMS.Infra.Data", "EscoteiroDMS.Infra.Data\EscoteiroLMS.Infra.Data.csproj", "{A4E24540-89E4-45D2-9D31-D2096A741023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscoteiroLMS.Infra.Data", "EscoteiroDMS.Infra.Data\EscoteiroLMS.Infra.Data.csproj", "{A4E24540-89E4-45D2-9D31-D2096A741023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscoteiroLMS.Infra.Ioc", "EscoteiroLMS.Infra.Ioc\EscoteiroLMS.Infra.Ioc.csproj", "{56AC7465-9099-42A1-A7F9-91A861D4C17A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscoteiroLMS.Infra.Ioc", "EscoteiroLMS.Infra.Ioc\EscoteiroLMS.Infra.Ioc.csproj", "{56AC7465-9099-42A1-A7F9-91A861D4C17A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscoteiroLMS.Api", "EscoteiroLMS.Api\EscoteiroLMS.Api.csproj", "{832AAA94-6871-48A4-A2FE-ABFE869128AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscoteiroLMS.Api", "EscoteiroLMS.Api\EscoteiroLMS.Api.csproj", "{832AAA94-6871-48A4-A2FE-ABFE869128AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscoteiroLMS.Application", "EscoteiroLMS.Application\EscoteiroLMS.Application.csproj", "{054C2D1C-CE5D-4E0E-BC02-3DA552A1DDEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EscoteiroLMS.Application", "EscoteiroLMS.Application\EscoteiroLMS.Application.csproj", "{054C2D1C-CE5D-4E0E-BC02-3DA552A1DDEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escoteiro.Domain.Test", "Escoteiro.Domain.Test\Escoteiro.Domain.Test.csproj", "{19D767B3-27A7-4907-BF96-063F1499776B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Escoteiro.Domain.Test", "Escoteiro.Domain.Test\Escoteiro.Domain.Test.csproj", "{19D767B3-27A7-4907-BF96-063F1499776B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscoteiroLMS.Communication", "EscoteiroLMS.Communication\EscoteiroLMS.Communication.csproj", "{E3814629-2971-420A-8202-943CC072FCAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{19D767B3-27A7-4907-BF96-063F1499776B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D767B3-27A7-4907-BF96-063F1499776B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19D767B3-27A7-4907-BF96-063F1499776B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3814629-2971-420A-8202-943CC072FCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3814629-2971-420A-8202-943CC072FCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3814629-2971-420A-8202-943CC072FCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3814629-2971-420A-8202-943CC072FCAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
